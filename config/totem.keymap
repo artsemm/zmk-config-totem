@@ -129,8 +129,8 @@ label= "CODE"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp EXCL    &kp LSA(RBKT) &kp LA(RBKT) &kp RPAR &kp PRCNT   &kp RBKT   &kp RBRC    &kp UP   &kp SQT     &kp DQT       
-                &kp RA(A)   &kp LSA(LBKT) &kp LA(LBKT)  &kp LPAR            &kp MINUS  &kp LEFT &kp DOWN &kp RIGHT   &kp RA(O) 
-    &trans      &kp TILDE &kp LS(N6) &COLON      &UNDER      &kc ASTRK          &kp EQUAL &kp LC(LEFT) &kp LC(UP) &kp LC(RIGHT)  &kp BSLH   &trans         
+                &kp RA(A)   &kp LSA(LBKT) &kp LA(LBKT)  &kp LPAR &kp LA(KP_MINUS) &kp MINUS  &kp LEFT &kp DOWN &kp RIGHT   &kp RA(O) 
+    &trans      &kp TILDE &kp LS(N6) &COLON  &UNDER      &kc ASTRK          &kp EQUAL &kp LC(LEFT) &kp LC(UP) &kp LC(RIGHT)  &kp BSLH   &trans         
                                         &trans      &mo ADJ     &trans         &trans      &trans    &trans      
                         >;
                 };
