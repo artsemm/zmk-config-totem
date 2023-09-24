@@ -103,7 +103,7 @@ label= "NUM"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)       &kp LS(N6)  &kp N7   &kp N8   &kp N9   &kp LBKT
-                &kp CAPS    &kp LEFT    &kp DOWN    &kp RIGHT   &kp LA(KP_MINUS) &kp MINUS   &kp N4   &kp N5   &kp N6   &kp SQT
+                &kp CAPS    &kp LEFT    &kp DOWN    &kp RIGHT   &kp LA(MINUS) &kp MINUS   &kp N4   &kp N5   &kp N6   &kp SQT
     &trans      &kp DEL     &kp PG_UP   &kp LS(LG(N3)) &kp LS(LG(N4)) &kp ASTRK   &kp EQUAL   &kp N1   &kp N2   &kp N3   &trans  &trans      
                                         &trans      &trans      &trans          &trans       &mo ADJ     &kp N0      
                         >;
@@ -128,10 +128,10 @@ label= "CODE"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp LSA(RBKT) &kp LA(RBKT)  &kp RPAR     &kp PRCNT          &kp RBKT   &kp RBRC     &kp UP     &kp SQT     &kp DQT       
-                &kp RA(A)   &kp LSA(LBKT) &kp LA(LBKT)  &kp LPAR     &kp LA(KP_MINUS)   &kp MINUS  &kp LEFT     &kp DOWN   &kp RIGHT   &kp RA(O) 
+                &kp EXCL    &kp LS(LA(RBKT)) &kp LA(RBKT)  &kp RPAR     &kp PRCNT          &kp RBKT   &kp RBRC     &kp UP     &kp SQT     &kp DQT       
+                &kp RA(A)   &kp LS(LA(LBKT)) &kp LA(LBKT)  &kp LPAR     &kp LA(MINUS)      &kp MINUS  &kp LEFT     &kp DOWN   &kp RIGHT   &kp RA(O) 
     &trans      &kp TILDE   &kp LS(N6)    &kp COLON     &kp UNDER    &kp ASTRK          &kp EQUAL  &kp LC(LEFT) &kp LC(UP) &kp LC(RIGHT)  &kp BSLH   &trans         
-                                        &trans      &mo ADJ     &trans         &trans      &trans    &trans      
+                                          &trans      &mo ADJ     &trans                  &trans      &trans    &trans      
                         >;
                 };
 
